@@ -85,11 +85,11 @@ function button(text,options = {}){
 }
 
 function input(options = {}){
-    return crend('input',options)
+    return crend('input','',options)
 }
 
 function img(options = {}){
-    return crend('img',options)
+    return crend('img','',options)
 }
 
 
