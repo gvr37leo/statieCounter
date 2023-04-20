@@ -14,7 +14,7 @@ app.get('*', function(req, res){
 // http.get('*', function(req, res) {  
 //     res.redirect('https://' + req.headers.host + req.url);
 // })
-app.listen(8000);
+app.listen(80);
 // var options = {
 //     key: fs.readFileSync('/etc/letsencrypt/live/poke-dex.com/privkey.pem'),
 //     cert: fs.readFileSync('/etc/letsencrypt/live/poke-dex.com/fullchain.pem')
