@@ -28,7 +28,7 @@ class Router {
 
     interceptNavigation(){
 
-        document.addEventListener('navigate',(e) => {
+        navigation.addEventListener('navigate',(e) => {
             e.preventDefault()
             this.navigate(e.destination.url)
         })
