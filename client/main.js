@@ -27,17 +27,17 @@ router.posttrigger = () => {
 
 // router.interceptNavigation()
 router.trigger(document.location.pathname)
+router.locationListen()
 
-// statiecounter.nl/statie-counter.nl
-// prijs/ mobile friendly/ schalen
-// back button
-// 2 naast elkaar
+// 24 april 17:00 nieuwe meeting
+// donaties, paypal
 // edit
-// donaties
-// 20 april 17:00 nieuwe meeting
 
 
-
+// back button
+// prijs/ mobile friendly/ schalen
+// statiecounter.nl/statie-counter.nl
+// woe 11 euro
 // oranje
 // statielijst doneer +button onderaan
 // footer fixed onderaan

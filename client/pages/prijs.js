@@ -22,7 +22,7 @@ function prijspage(){
         align-items: center;
     `})
         crend('div',selectedmerk)
-        div({style:`display:flex; justify-content:center;`})
+        div({style:`display:flex; justify-content:center;flex-wrap:wrap;`})
             for(let item of prijsitems){
                 div({style:'display:flex; flex-direction:column;align-items:center;margin-right: 10px;'})
                     img({src:item.image,width:'100px',height:'120',style:`margin-bottom:10px;`})
